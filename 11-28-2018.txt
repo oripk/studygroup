@@ -19,7 +19,11 @@ public class FirstProgram
 	}
 }
 
-method brace¿¡ ÀÖ´Â°Í
-import ³Ö´Â ÀÌÀ¯´Â scannerÀ» ¾²±â À§ÇÔÀÌ´Ù.
-Á¦¸ñÇÏ°í ÆÄÀÏ¸íÇÏ°í °°¾Æ¾ßÇÑ´Ù.
-integrated development environment(IDE) ¿¡µğÅÍ 
+method braceì— ìˆëŠ”ê²ƒ
+import ë„£ëŠ” ì´ìœ ëŠ” scannerì„ ì“°ê¸° ìœ„í•¨ì´ë‹¤.
+ì œëª©í•˜ê³  íŒŒì¼ëª…í•˜ê³  ê°™ì•„ì•¼í•œë‹¤.
+integrated development environment(IDE) ì—ë””í„°
+instruction ì„¤ëª…		argumentë…¼ìŸ
+qouteì¸ìš©			parenthesê´„í˜¸
+expressioní‘œí˜„			computeê³„ì‚°
+preciseì •í™•í•œ
