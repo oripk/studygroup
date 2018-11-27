@@ -1,0 +1,18 @@
+자바에는 compiler 와 interpreter가 있다.
+compiler 는 우리가 쓰는 언어에서 컴퓨터가 쓰는 언어로 바꿔주는 기능을 한다.
+interpreter은 compiler와 비슷한 역활을 하지만 즉시 반영해서 보여준다.
+Java는 Bytecode라고 불리는 언어로 바꿔주는 기계가 있어야한다. 그것을 Java Virtual Machine(JVM)이라 말한다.
+한번 바꾸게 되면 다시 바꿀 필요가 없다.
+Java program -> Java compiler -> Bytecode program -> Bytecode interpreter(JVM) ->
+		 Machine -language instructions -> Computer execution of machine-language instructions -> out put of java program
+
+Data for Java program --------------->  Computer execution of machine-language instructions -> out put of java program
+
+모르는 단어들 
+compilation 편집		slightly 약간
+manufacturer 제조자		versatile 변하기 쉬운
+approach 접근			separately 단독으로
+sufficient 충분한		combines 결합하다
+terminology 술어학		intermediate 중급의
+associate 지내다		accommodate 수용하다
+emphasis 힘
