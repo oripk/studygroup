@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class FirstProgram
+{
+	public static void mian(String[] args)
+	{
+		System.out.println("Hello out there.");
+		System.out.println("I will add tow numbers for you.");
+		System.out.println("Enter two whole numbers on a line:");
+		
+		int n1, n2;
+		
+		Scanner keyboard = new Scanner(System.in);
+		n1 = keyboard.nextInt();
+		n2 = keyboard.nextInt();
+		
+		System.out.println("The sum of those tow numbers is ");
+		System.out.println(n1+n2);
+	}
+}
+
+method brace에 있는것
+import 넣는 이유는 scanner을 쓰기 위함이다.
+제목하고 파일명하고 같아야한다.
+integrated development environment(IDE) 에디터 
