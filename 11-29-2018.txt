@@ -1,0 +1,21 @@
+자바는 Object-Oriented Programming이다, 줄여서 OOP
+OOP는 서로의 영향에 대해서 가지는 것을 표현하는 도구이다.
+객체가 하는 것을 behaviors(행동)이라고 표현한다.
+Object는 데이터를 가지는 개체 그리고 어떤 행동을 알고 잇는 형태를 말한다.
+Class는 어떤 Object를 결정하는 것이다.
+같은 class의 모든 Object는 같은 종류의 데이터와 같은 행동을 가진다.
+프로그램이 실행될 때 각각의 Object는 서로 영향을 주고 주어진 프로그램의 목표를 행한다.
+이 행동의 형태를 method에 의해서 정의된다.
+Class는 Objects의 설계도이다,
+프로그램은 Encapsulation, Polymorphism, Inheritance로 주로 디자인한다.
+Encapsulation은 보통 information hiding이라 불리며, 캡슐 형태 즉 따로따로 떼어져서 프로그래밍 된다.
+Polymorphism은 인간의 언어처럼 다양한 형태로 작성할 수 있다.
+inheritance는 class의 조직이다.
+
+
+
+extremely 극도로		oriented ~을 지향하는
+abbreviated 단축된		represent 대표하다
+abstraction 관념			associate 연상하다
+blueprint 청사진		encapsulation 요약하다
+polymorphism 동질이상		inheritance 상속
