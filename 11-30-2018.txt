@@ -1,0 +1,19 @@
+Objects는 method의 정의로 인한 행동을 가진다.
+Algorithm은 Java 같은 언어나 pseudo code가 있는 프로그래밍 언어로 표현 가능하다.
+알고리즘을 자바언어로 쓰고 컴퓨터로 돌리면 중간결과가 컴퓨터 메모리에 저장이 된다.
+알고리즘은 문제의 해결을 목적으로 세팅된다. 알고리즘의 자격을 얻으려면 방향은 완전하고 바르게 표현되어야 한다.
+의사코드는 영어와 Java의 삭혀진 형태이다. 이것을 쓰면 내가 알고리즘을 가장 쉬운 언어로 적을 수 있음.
+프로그램 문제를 bug라고 부른다. 그래서 프로그램의 실수를 없애는 것을 debugging이라고 한다.
+syntax는 언어의 법칙이다.
+run-time error는 에러의 일종이다. 에러나면 나오는거 프로그램 실행하면 나옴.
+logic errors는 프로그램이나 알고리즘의 개념의 실수이다.
+
+
+
+
+Hierarchy 계급				instruction 설명
+pseudo code 의사코드(프로그램이 실행되기 전에 기계코드로 번역될 필요가 있는 것)
+intermediate 중간의			completely 완전히, 전적으로
+eliminate 없애다			avoid 막다
+violating 위반하는			indicating 나타내다
+conceptual개념의, 구상의		gotcha잡았다
