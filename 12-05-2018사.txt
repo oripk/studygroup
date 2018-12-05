@@ -1,0 +1,28 @@
+https://m.blog.naver.com/PostView.nhn?blogId=cjh9217&logNo=220745972339&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
+이곳에서 정리하는 내용임 (2018-12-05)
+QR코드
+Quick Response 의 약자
+QR코드는 40가지의 버전이 있으며 점차 크기가 커짐
+QR코드는
+Position Detection Pattern  : 좌상, 우상, 좌하 에 있는 큰 사각형
+        검정 : 흰 :  검정 = 3 : 5 : 7을 가져야 한다,
+Alignment Pattern : QR코드 2버전부터 가진다.
+        QR코드가 왜곡될때 사용 우측 하단에 있는 작은 사각형임
+Format Information :  데이터를 가장 먼저 읽는 부분, Position Detection Pattern 옆 부분에 있음
+      (Error Correction Rate. Masking Patten등 을 저장한다.)
+Time pattern : QR코드의 정확한 위치를 알기 위한 부분, Position Datection Pattern 의 끝부분 직선으로 그려저 있음.
+Date : 그 나머지, Error correction Code 도 있다.
+
+우상단 바로 밑에 있는 좌측 처음 부분 2bit 를 저장하는 부분에서는 Error Correction Level을 나타낸다.
+보통 L(7%), M(15%), Q(25%), H(30%)를 나타냄
+다음 3bit는 QR코드에 씌울 Mask Part를 말한다. 리더기에 최소한의 혼란을 만들기 위해서 만든것이다.
+0 : j%3=0
+1 : (i+j)%3=0
+2 : (i+j)%2=0
+3 : i%2=0
+4 : ((i*j)%3+i*j)2=0
+5 : ((i*j)%3+i+j)2=0
+6 : (i/2+j/3)%2=0
+7 : (i*j)%2+(i*j)%3=0
+나머지 사각형 주위 부분에는 Error Correction Code 이다. 10bit 이다.
+Formet Information 을 읽으려면 마스크 패턴을 입혀야 한다.
