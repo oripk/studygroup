@@ -1,0 +1,21 @@
+프로그래밍은 여러 가지 요소로 결합할 수 있다. 여기에 여러 가지 부침으로써 새로운 프로그램 작성이 가능하다.
+그런 기본적인 것은 Java Class Library 라 부르고 때로 이것을 Application Programming Interface(API)라고 명한다.
+
+applet 작은 기능 같은 거…. 이걸로 그래픽이 가능하다 아마?
+import javax·swing·JApplet;
+import javax·awt·Graphics;
+
+public class Happy Face extends applet {
+	public void paint(Java·awt·Graphics canvas) {
+		canvas·draw Oval(100, 50, 200, 200);
+		canvas·fill Oval(155,100, 10, 20);
+		canvas·fill Oval(230,100, 10, 20);
+		canvas·draw Arc(150, 160, 100, 50, 180, 180);
+	}
+}
+Applet Output
+이거 실행이 안 돼서 내 일 하기로 함.
+
+
+
+component 요소, 부품		principle 원칙
