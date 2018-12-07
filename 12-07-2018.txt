@@ -1,0 +1,24 @@
+Mask Pattern은 Data에 Exclusive-Or에 연산을 한다.
+Error Correction Rate 를 나타내는 Bit는
+Error Correction Rate		Bit
+	L			01
+	M			00
+	Q			11
+	H			10
+QR코드의 데이터들은 다음과 같이 8Bit와 4bit블럭 형태로 저장되어 있다.
+맨 아래쪽 오른쪽의 4bit 의 코드느 Encoding Mode와 추자정보를 알려준다.
+
+비트(Bits)		의미
+0001			QR코드에 숫자를 담을 수 있습니다.
+0010			QR코드에 알파벳 + 영문 조합을 담을 수 있습니다.
+0100			QR코드에 Byte를 담을 수 있습니다.
+1000			QR코드에 간지(일본어 한자)를 담을 수 있습니다.
+0011			Structured append를 뜻합니다.
+0111			Extended Channel Interpretation을 뜻합니다.
+0101			첫 위치가 FNC1임을 뜻합니다.
+1001			두 번째 위치가 FNC1임을 뜻합니다.
+0000			데이터의 끝을 나타냅니다.
+
+그 위 8개의 비트는 실질적인 데이터의 길이를 나타낸다.
+
+읽는 순서는 우하부터 위로 위에 만나면 좌로, 좌에서 만나면 밑으로, 다음 좌로 한칸가서 위로, 이런식으로 반복을 한다.
