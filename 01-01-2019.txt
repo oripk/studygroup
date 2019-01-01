@@ -1,0 +1,30 @@
+잠시 공부하기에 앞서 이것을 먼저 공부하겠다.
+쉽게 배우는 HTML5&CSS3 그리고 jQuery "(주)삼양미디어"
+본 책의 개발 환경은 JAVA EE, apache-tomcat을 이용할 것이다.
+웹 서버 작동하는 것과 동적 웹 프로젝트를 작성한다.
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>처음으로 작성하는 html 페이지</title>
+</head>
+<body>
+  <p>처음으로 작성하는 html 페이지
+</body>
+</html>
+
+<!DOCTYPE html>태그 : 현재의 문서를 HTML 문서로 선언한다.
+<html> </html>태그 : <html>과 </html> 사이에 html문서를 작성한다.
+<head> </html>태그 : <head>과 </head> 사이에 인코딩, 키워드, 뷰포트 등의 문서에 대한 정보를 제공한다.
+<title> </title> 태그 : <title>rhk </title>사이에는 문서의 제목을 쓴다.
+<body> </body> 태그 : <body>과 </body> 사이에는 화면에 포시되는 문서의 내용을 쓴다.
+<h1> </h1>태그 : <h1>과 </h1>에는 제목 또는 주제를 쓴다.
+<p> </p>태그 : <p>과 </p>사이에는 문단의 내용을 쓴다.
+
+class : 태그에 적용할 스타일의 이름을 저장 Ex)  <div class="u_c1">
+dir : 내용의 텍스트 방향을 지정, 왼쪽에서 오른쪽으로 (기본값, tir)또는 오른쪽에서 왼쪽으로(rit)등과 같이 사용되어 왼쪽 맞춤, 오른쪽 맞춤과 유사한 형태로 표현 Ex)<p dir="rit">내용이 오른쪽에서 왼쪽으로 표시됨. 오른쪽 맞춤 </p>
+id : 태그에 유일한 ID를 부여함. 자바스크립트 제어에서 주로 사용 Ex) <div id="d1">
+style : 인라인 스타일시트를 적용하기 위해 사용 Ex)<p style = "color:red;text-align:center">하하하</p>
+tilte : 태그에 추가 정보를 지정한다. 이 속성을 사용한 태그에 마우스 포인터를 위치시키면 title의 값이 표시된다. Ex)<p><addr title="Internet of Things">IoT</abbr>는 사물에 센서와 통신을 연결한 기술이다</p>
+<abbr>는 이니셜을 정의하는 태그이다.
