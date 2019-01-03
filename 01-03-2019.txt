@@ -1,0 +1,60 @@
+2)<body>태그
+html5에서는 css파일에서 지정하는 것을 권함
+background="이미지 파일명" : 배경으로 사용할 이미지 파일 지정, 태그 표현
+bgcolor="RGB또는 색상명" : 배역색 지정, 태그 표현
+text="RGB또는 색상명" : 글자색 지정, 태그 표현
+Ex)문서의 내용(body 태그의 내용) 작성
+<body bgcolor="#0000FF">
+ <h1>태그연습</h1>
+ <p>body태그연습</p>
+ <button oclick="test()">버튼</button>
+3)<p>태그
+문단 띄기
+align="left | center | right" : 문잔의 정렬, 태그 표현
+Ex)문단 구분
+<p>태그연습</p>
+<p>CSS연습 </>
+4)<br>연습
+줄바꿈
+리스트1<br>
+리스트2
+5)글꼴 속성 태그 <I>,<B>
+<I>,<B>태그는 글자를 강조할 때 사용하는 것으로 <I> 태그는 글꼴의 기울임으로 표시하고, <B> 태그는 글꼴을 진하게 표시한다.
+Ex)글꼴의 속성
+<b>사물 인터넷</b>(<i>IoT</i>과 <b>보안</b>(<i>Security</i>)
+
+사용예시
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>문단 구문 및 글꼴 속성 태그 사용</title>
+</head>
+<body>
+<P><b>IoT(Internet of Tings, 사물 인터넷)</b><br>
+사물에 센서와 통신 기능을 내장하여 인터넷에 연결하는 기술<br>
+네트워크를 사용하기 때문에 해킹의 위험이 높음.<br>
+보안이 필수임.</P>
+<p><b>3D printing(3D 프린팅)</b><br>
+3차원 물체를 만들어내는 제조 기술<br>
+컴퓨터로 제어되기 때문에 형태를 만들 수 있음.<br>
+다른 제조 기술에 비해 쉽게 사용할 수 있음.
+</body>
+</html>
+
+6)<img>태그
+태그와 관련된건 CSS에서 지정하는 것을 권함.
+src="파일이름" : 표시할 이미지 파일의 경로를 포함한 이름을 입력한다. 필수 속성으로 반드시 사용한다.
+align ="left | right | top | middle | bottom" : " left | rihgt"은 글자가 같이 표시될 경우 그림이 표시되는 위치를 지정하고, "top | middle | bottom"은 그림과 같이 표시될 문자의 수직위치, 태그 표현
+border = "n" : 이미지 테두리의 두께, 태그 표현
+width = "n" : 이미지의 가로길이, 태그 표현
+height = "n" : 이미지의 세로길이, 태그 표현
+alt = "대신할 문자" : 이미지가 표시되지 못할 경우 대신할 메시지 지정
+
+Ex)이미지 표시
+<img src="picture1.png">그림<br>
+<img src="picture2.png" width="30" height="40" align="middle">그림2
+
+
+
