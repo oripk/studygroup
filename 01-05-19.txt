@@ -1,0 +1,40 @@
+7)<a>태그
+href="이동할 페이지 또는 위치"
+Ex)다른 문서로 이동할 때 
+<a href="b,html">b.html로 이동</a>
+Ex)같은 페이지 내의 특정 위치로 이동할 때
+<a href="#cnt1">cnt1로 이동</a>
+target="_blank" 새 창에 링크된 페이지 내용을 표시
+Ex)
+<a href="b.html">b.html로 이동</a>
+<a href="b.html" target="_blank">새창을 열어서 b.html로 이동</a>
+name="위치명"또는 id="ID명"
+Ex)
+<a href="#cnt1">내용></a>
+...
+<a id="cnt1"></a>
+<h1>내용1</h1>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>페이지 이동</title>
+</head>
+<body>
+ <a href="img_cont.html">
+  <img src="picture2.png" width="60" height"70"></a>
+</body>
+</html>
+8-1)table
+align="left | right | centor" : 전체 표가 정렬되는 위치 지정, 태그 표현
+bgcolor="색상코드" : 배경색, 태그 표현
+background= "배경이미지의 파일명": 배경이미지, 태그 표현
+border="n" : 테이블의 테두리선의 두께, 태그 표현
+cellspacing="n" : 칸과 칸 사이의 간격, 태그 표현
+cellpadding="n" : 칸의 테두리선과 실제 안에 기록되는 내용과의 간격, 태그 표현
+width="n%:혹은 "n": 테이블의 너비, 태그 표현
+
+
+
